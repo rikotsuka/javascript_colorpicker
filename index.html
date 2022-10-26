@@ -20,16 +20,20 @@
 
 <body>
     <div>
-        <label><input type="color" id="colorBack">背景色</label>
-        <label><input type="color" id="colorFore">文字色</label>
+        <label><input type="color" name="name1"id="colorBack">背景色</label>
+        <label><input type="color" name="name2"id="colorFore">文字色</label>
     </div>
 
     <div id="outer">
         Hello, JavaScript
     </div>
-    <!-- RGBなどの数値がカラーピッカーの下に反映されるようにする -->
-    <input type="text" id="colorBack" outer.style.background="">
-    <input type="text" id="colorFore"outer.style.color="">
+    背景色：
+    <p id="name1"></p>
+
+    文字色：
+    <p id="name2"></p>
+
+    <!-- 背景色と文字色のデータを別のページに保存する -->
     <script src="js/main.js"></script>
 </body>
 

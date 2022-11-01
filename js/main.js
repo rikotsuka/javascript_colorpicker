@@ -12,7 +12,6 @@ colorFore.addEventListener('change', function () {
     outer.style.color = this.value;
 });
 $(function() {
- 
     // textボックスの変更時
     $('input[name=name1]').change(function() {
       // valueを取得
